@@ -1,3 +1,16 @@
+"
+Dependencies:
+
+Metacello new
+	repository: 'github://pharo-rdbms/Pharo-SQLite3/src';
+	baseline: 'SQLite3';
+	load
+	
+Metacello new
+ 	baseline:'Seaside3';
+ 	repository: 'github://SeasideSt/Seaside:master/repository';
+ 	load
+"
 Class {
 	#name : #PLLogic,
 	#superclass : #Object,
